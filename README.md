@@ -97,4 +97,4 @@ end
 
 Don't be freaked out by that `.first` method chained to the end of the `DB[:conn].execute(sql, name).map` block. The return value of the `.map` method is an array, and we're simply grabbing the `.first` element from the returned array. Chaining is cool!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/orm-mapping-db-to-ruby-object' title='Mapping tables to objects'>Mapping tables to objects</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>PHRG Mapping Tables to Objects</p>
